@@ -9,6 +9,8 @@ A year is a leap year if one of the following conditions is satisfied:
 The year is a multiple of 400.
 The year is a multiple of 4 but not a multiple of 100.
 
+-----------------------------------------------------------------------------------------------------------------------------------------------------------
+
 The Algorithm to Check Leap Year is given below
 The algorithm implements the conditions specified above to check for leap year.
 
@@ -32,11 +34,13 @@ int main(){
 
     if (leapYear % 400 == 0){
         cout << "It's a leap year" << endl;
-    } else if(leapYear % 4 == 0 && leapYear % 100 != 0) {
+    } else if(leapYear % 4 == 0 && leapYear % 100 != 0) // Simplified Logic 
+    {
         cout << "It's a leap year" << endl;
     } else {
         cout << "It's not a leap year" << endl;
     }
     
     return 0;
+
 }
