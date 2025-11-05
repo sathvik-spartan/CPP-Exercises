@@ -40,4 +40,40 @@ int main(){
     return 0;
 }
 
+// Alt code is show below (using functions)
+
+#include <bits/stdc++.h>
+using namespace std;
+
+void got(int a, int b, int c){
+
+    if(a >= b && a >= c){
+        cout << a << " is greater" << endl;
+    } else if (b >= a && b >= c){
+        cout << b << " is greater" << endl;
+    } else {
+        cout << c << " is greater" << endl;
+    }
+}
+
+int main(){
+
+    int x;
+    cout << "Enter the first number: " << endl;
+    cin >> x;
+
+    int y;
+    cout << "Enter the secong number: " << endl;
+    cin >> y;
+
+    int z;
+    cout << "Enter the third number: " << endl;
+    cin >> z;
+
+    got(x,y,z);
+
+    return 0;
+}
+
+
 
