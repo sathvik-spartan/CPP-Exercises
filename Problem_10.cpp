@@ -1,6 +1,6 @@
 /** C++ Program to Check Leap Year
  *  A year consisting of 366 days instead of the usual 365 days is a leap year. 
- *  Every fourth year is a leap year in the Gregorian calendar system. 
+ *  Every fourth year is a leap year according to the Gregorian/Modern calendar system. 
 */
 
 /*
@@ -70,6 +70,7 @@ int main(){
     leapYear(x);
     return 0;
 }
+
 
 
 
