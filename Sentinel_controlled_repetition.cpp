@@ -11,9 +11,9 @@ int main(){
     cin >> num1;
 
     while (num1 >= 0){
-        cout << "You entered " << num1 << endl;
+        cout << "You entered: " << num1 << endl;
         cout << "Enter another number: " << endl;
-        cin >> num1; // Loops until user entered a negative number 
+        cin >> num1; // Loops until user entered a negative number or any sentinel entity
     }
 
     return 0;
