@@ -30,6 +30,7 @@ using namespace std;
 int main(){
 
     int leapYear;
+    cout << "Enter a year to check if it's a leap year or not: " <<  endl;
     cin >> leapYear;
 
     if (leapYear % 400 == 0){
@@ -44,3 +45,31 @@ int main(){
     return 0;
 
 }
+
+// Same program but using functions
+
+#include <bits/stdc++.h>
+using namespace std;
+
+void leapYear (int a){
+
+    if (a % 400 == 0){
+        cout << "It's a leap year" << endl;
+    } else if (a % 4 == 0 && a % 100 != 0){
+        cout << "It's a leap year" << endl;
+    } else {
+        cout << "It's not a leap year" << endl;
+    }
+}
+
+int main(){
+
+    int x;
+    cout << "Enter a year: " << endl;
+    cin >> x;
+    leapYear(x);
+    return 0;
+}
+
+
+
