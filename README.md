@@ -11,4 +11,5 @@ There are over 50+ C Exercise questions for you to practice along with the solut
 - Problem_9 : Write a Program to Find the Largest Among 3 Numbers.
 - Problem_10 : Write a Program to Check whether the given year is leap year or not.
 - Problem_11 : Write a Program to Check Whether a Number Is Prime or Not.
+- Problem_12 : Write a Program to Check Whether a Number Is a Palindrome or Not.
 - Problem_16 : Write a Program to Swap Two Numbers Using a Function.
