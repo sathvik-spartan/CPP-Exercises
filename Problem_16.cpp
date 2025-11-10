@@ -6,14 +6,14 @@ In this program, you have to swap the values of two variables using another func
 #include <bits/stdc++.h>
 using namespace std;
 
-void swapFunc(int &a, int &b) // Write the logic here
+void swapFunc(int &a, int &b) // Write the logic in this function block.
 {
     int temp = a;
     a = b;
     b = temp;  
 }
 
-int main() // Perform the output operations here
+int main() // Perform the output operations in the main function block.
 {
 
     int x;
