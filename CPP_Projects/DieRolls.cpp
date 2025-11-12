@@ -9,7 +9,7 @@ You'll also have to print the result after every roll.
 
 int main(){
 
-    srand(time(nullptr));
+    srand(time(nullptr)); // seeds the Random Number Generator with the current time
 
     int dieValue;
     int value;
